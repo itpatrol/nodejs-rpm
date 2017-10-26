@@ -3,7 +3,7 @@
 %define   _includedir %{_prefix}/include
 %define   _bindir %{_prefix}/bin
 %define   _libdir %{_prefix}/lib
-%define   _node_original_docdir /usr/share/doc/node
+%define   _node_original_docdir %{_prefix}/share/doc/node
 %define   _build_number %(echo ${BUILD_NUMBER:-3})
 
 %if 0%{?rhel} == 5
