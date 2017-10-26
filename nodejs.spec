@@ -43,6 +43,7 @@ Patch1: node-js.centos5.gyp.patch
 Patch2: node-js.centos5.icu.patch
 Patch3: node-js.v8_inspector.gyp.patch
 Patch4: node-js.node.gyp-python27.patch
+Patch5: node-js.npm.patch
 
 %description
 Node.js is a server-side JavaScript environment that uses an asynchronous event-driven model.
@@ -91,6 +92,8 @@ rm -rf $RPM_SOURCE_DIR/%{_base}-v%{version}
 %patch3 -p1
 %patch4 -p1
 %endif
+
+%patch5 -p1
 
 %build
 %if 0%{?rhel} == 5
