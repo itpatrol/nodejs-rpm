@@ -3,7 +3,7 @@ diff -aurN node-v7.10.1.orig/deps/npm/bin/npm-cli.js node-v7.10.1/deps/npm/bin/n
 +++ node-v7.10.1/deps/npm/bin/npm-cli.js        2017-10-25 23:50:59.152240603 -0400
 @@ -1,4 +1,4 @@
 -#!/usr/bin/env node
-+#!/usr/node/v7/bin/node
++#!/usr/node/v6/bin/node
  ;(function () { // wrapper in case we're in module_context mode
    // windows: running "npm blah" in this folder will invoke WSH, not node.
    /*global WScript*/
