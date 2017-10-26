@@ -1,3 +1,4 @@
+%define   _prefix /usr/node/v4
 %define   _base node
 %define   _includedir %{_prefix}/include
 %define   _bindir %{_prefix}/bin
