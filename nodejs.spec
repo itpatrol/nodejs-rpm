@@ -13,7 +13,7 @@
 %global tapsetroot %{_prefix}/share/systemtap
 %global tapsetdir %{tapsetroot}/tapset/%{_build_cpu}
 
-Name:          %{_base}js
+Name:          %{_base}js4
 Version:       4.8.5
 Release:       %{_build_number}%{?dist}
 Provides:      %{_base}js(engine)
